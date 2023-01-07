@@ -1,4 +1,4 @@
-// Custom middleware that logs out the type and path of each request to the server
+// middleware that logs out the type
 const clog = (req, res, next) => {
   const fgMagenta = '\x1b[35m';
   switch (req.method) {
