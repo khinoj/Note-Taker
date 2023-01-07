@@ -46,7 +46,9 @@ https://www.npmjs.com/package/clog-js
 
  ## Screenshot
 
-![](./Assets/team-html.PNG)
+![](./images/image_1.PNG)
+
+![](./images/image_2.PNG)
 
 
 ## GitHub
@@ -54,5 +56,10 @@ https://www.npmjs.com/package/clog-js
 1.  https://github.com/khinoj/Team-Profile-Generator
 
 2.  https://khinoj.github.io/Team-Profile-Generator/
+
+## Heroku
+
+1. https://blooming-beyond-82114.herokuapp.com/
+
 
 
