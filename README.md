@@ -41,4 +41,18 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 https://expressjs.com/
 
+https://www.npmjs.com/package/clog-js
+
+
+ ## Screenshot
+
+![](./Assets/team-html.PNG)
+
+
+## GitHub
+
+1.  https://github.com/khinoj/Team-Profile-Generator
+
+2.  https://khinoj.github.io/Team-Profile-Generator/
+
 
