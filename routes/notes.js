@@ -1,8 +1,6 @@
 const notes = require('express').Router();
-const { readFromFile, readAndAppend, writeToFile } = require('../helpers/fsUtils');
-const uuid = require('../helpers/uuid');
 
-// GET Route for retrieving all the notes
+// GET Route for notes
 notes.get('/', (req, res) => {
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
@@ -20,7 +18,7 @@ notes.get('/:id', (req, res) => {
     });
 });
 
-// POST Route for a new note
+// POST Route 
 notes.post('/', (req, res) => {
   console.log(req.body);
 
