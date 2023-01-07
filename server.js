@@ -1,9 +1,9 @@
-//external modules
+// includes external modules
 const express = require('express');
 const path = require('path');
 const { clog } = require('./middleware/clog');
 const api = require('./routes/index.js');
-// establishes port
+//   local port
 const PORT = process.env.PORT || 3001;
 // backend app
 const app = express();
@@ -11,7 +11,7 @@ const app = express();
 // "clog" middleware
 app.use(clog);
 
-// Middleware
+// Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
@@ -28,7 +28,6 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/pages/notes.html'))
 );
 
-
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT}`)
+  console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
