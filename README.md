@@ -53,9 +53,10 @@ https://www.npmjs.com/package/clog-js
 
 ## GitHub
 
-1.  https://github.com/khinoj/Team-Profile-Generator
+1.  https://github.com/khinoj/Note-Taker
 
-2.  https://khinoj.github.io/Team-Profile-Generator/
+2.  https://khinoj.github.io/Note-Taker/
+
 
 ## Heroku
 
